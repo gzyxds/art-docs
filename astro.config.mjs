@@ -11,7 +11,7 @@ export default defineConfig({
 	integrations: [
 		sitemap(),
 		starlight({
-			title: "Mkdirs",
+			title: "艺创AI",
 			favicon: "./favicon.ico",
 			social: {
 				github: "https://github.com/MkdirsHQ",
@@ -23,7 +23,7 @@ export default defineConfig({
 				alt: "Mkdirs Logo",
 			},
 			// https://starlight.astro.build/guides/i18n/#use-a-root-locale
-			defaultLocale: "root",
+			defaultLocale: "zh-cn",
 			locales: {
 				root: {
 					label: "English",
@@ -39,214 +39,214 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: "Introduction",
+					label: "模板介绍",
 					translations: {
-						"zh-CN": "模板介绍"
+						"en": "Introduction"
 					},
 					slug: "index",
 				},
 				{
-					label: "FAQ",
+					label: "常见问题",
 					translations: {
-						"zh-CN": "常见问题"
+						"en": "FAQ"
 					},
 					slug: "faq",
 				},
 				{
-					label: "Roadmap",
+					label: "路线图",
 					translations: {
-						"zh-CN": "路线图"
+						"en": "Roadmap"
 					},
 					link: "https://github.com/MkdirsHQ/mkdirs-template/issues/10",
 				},
 				{
-					label: "Prerequisites",
+					label: "前提条件",
 					translations: {
-						"zh-CN": "前提条件"
+						"en": "Prerequisites"
 					},
 					slug: "prerequisites",
 				},
 				{
-					label: "Installation",
+					label: "安装部署",
 					translations: {
-						"zh-CN": "安装部署"
+						"en": "Installation"
 					},
 					slug: "installation",
 				},
 				{
-					label: "Configuration",
+					label: "配置环境",
 					translations: {
-						"zh-CN": "配置环境"
+						"en": "Configuration"
 					},
 					items: [
 						{
-							label: "Sanity",
+							label: "数据服务 - Sanity",
 							translations: {
-								"zh-CN": "数据服务 - Sanity"
+								"en": "Sanity"
 							},
 							slug: "configuration/sanity"
 						},
 						{
-							label: "Resend",
+							label: "邮件服务 - Resend",
 							translations: {
-								"zh-CN": "邮件服务 - Resend"
+								"en": "Resend"
 							},
 							slug: "configuration/resend"
 						},
 						{
-							label: "Stripe",
+							label: "支付服务 - Stripe",
 							translations: {
-								"zh-CN": "支付服务 - Stripe"
+								"en": "Stripe"
 							},
 							slug: "configuration/stripe"
 						},
 						{
-							label: "Auth",
+							label: "认证服务 - Auth",
 							translations: {
-								"zh-CN": "认证服务 - Auth"
+								"en": "Auth"
 							},
 							slug: "configuration/auth"
 						},
 						{
-							label: "Analytics",
+							label: "数据分析 - Analytics",
 							translations: {
-								"zh-CN": "数据分析 - Analytics"
+								"en": "Analytics"
 							},
 							slug: "configuration/analytics"
 						},
 						{
-							label: "AI",
+							label: "AI 模型 - AI",
 							translations: {
-								"zh-CN": "AI 模型 - AI"
+								"en": "AI"
 							},
 							slug: "configuration/ai"
 						},
 					],
 				},
 				{
-					label: "Deployment",
+					label: "部署上线",
 					translations: {
-						"zh-CN": "部署上线"
+						"en": "Deployment"
 					},
 					items: [
 						{
-							label: "Vercel",
+							label: "部署到 Vercel",
 							translations: {
-								"zh-CN": "部署到 Vercel"
+								"en": "Vercel"
 							},
 							slug: "deployment/vercel"
 						},
 						{
-							label: "Docker",
+							label: "Docker 自部署",
 							translations: {
-								"zh-CN": "Docker 自部署"
+								"en": "Docker"
 							},
 							slug: "deployment/docker"
 						},
 						{
-							label: "Dokploy",
+							label: "部署到 Dokploy",
 							translations: {
-								"zh-CN": "部署到 Dokploy"
+								"en": "Dokploy"
 							},
 							slug: "deployment/dokploy"
 						},
 					],
 				},
 				{
-					label: "Customization",
+					label: "自定义",
 					translations: {
-						"zh-CN": "自定义"
+						"en": "Customization"
 					},
 					items: [
 						{
-							label: "Customize Information",
+							label: "自定义网站信息",
 							translations: {
-								"zh-CN": "自定义网站信息"
+								"en": "Customize Information"
 							},
 							slug: "customization/information"
 						},
 						{
-							label: "Customize Logo",
+							label: "自定义 Logo",
 							translations: {
-								"zh-CN": "自定义 Logo"
+								"en": "Customize Logo"
 							},
 							slug: "customization/logo"
 						},
 						{
-							label: "Customize Font",
+							label: "自定义字体",
 							translations: {
-								"zh-CN": "自定义字体"
+								"en": "Customize Font"
 							},
 							slug: "customization/font"
 						},
 						{
-							label: "Customize Theme",
+							label: "自定义主题",
 							translations: {
-								"zh-CN": "自定义主题"
+								"en": "Customize Theme"
 							},
 							slug: "customization/theme"
 						},
 						{
-							label: "Customize Card",
+							label: "自定义卡片样式",
 							translations: {
-								"zh-CN": "自定义卡片样式"
+								"en": "Customize Card"
 							},
 							slug: "customization/card"
 						},
 						{
-							label: "Customize Category",
+							label: "自定义分类",
 							translations: {
-								"zh-CN": "自定义分类"
+								"en": "Customize Category"
 							},
 							slug: "customization/category"
 						},
 						{
-							label: "Customize Email",
+							label: "自定义邮件",
 							translations: {
-								"zh-CN": "自定义邮件"
+								"en": "Customize Email"
 							},
 							slug: "customization/email"
 						},
 						{
-							label: "Customize Page",
+							label: "自定义页面",
 							translations: {
-								"zh-CN": "自定义页面"
+								"en": "Customize Page"
 							},
 							slug: "customization/custom-page"
 						},
 					],
 				},
 				{
-					label: "Guide",
+					label: "使用指南",
 					translations: {
-						"zh-CN": "使用指南"
+						"en": "Guide"
 					},
 					items: [
 						{
-							label: "Development",
+							label: "开发相关",
 							translations: {
-								"zh-CN": "开发相关"
+								"en": "Development"
 							},
 							slug: "guide/develop"
 						},
 						{
-							label: "Submission",
+							label: "提交数据",
 							translations: {
-								"zh-CN": "提交数据"
+								"en": "Submission"
 							},
 							slug: "guide/submission"
 						},
 						{
-							label: "Sponsor Ads",
+							label: "赞助广告",
 							translations: {
-								"zh-CN": "赞助广告"
+								"en": "Sponsor Ads"
 							},
 							slug: "guide/sponsor-ads"
 						},
 						{
-							label: "Sanity",
+							label: "Sanity 相关",
 							translations: {
-								"zh-CN": "Sanity 相关"
+								"en": "Sanity"
 							},
 							slug: "guide/sanity"
 						},
